@@ -1,0 +1,16 @@
+.contProdcutos{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 1rem;
+    grid-template-areas: ". a a a a a a .";
+}
+
+.productos{
+    grid-area: a;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 2rem; 
+}
